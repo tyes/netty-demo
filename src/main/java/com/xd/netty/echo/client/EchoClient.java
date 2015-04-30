@@ -37,7 +37,7 @@ public class EchoClient {
 							pipeline.addLast(new EchoClientHandler());
 						}
 					});
-			ChannelFuture future = b.bind(host, port).sync();
+			ChannelFuture future = b.connect(host, port).sync();
 			future.channel().closeFuture().sync();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -49,7 +49,7 @@ public class EchoClient {
 	 */
 	public static void main(String[] args) {
 		String host = "127.0.0.1";
-		int port = 8888;
+		int port = 8999;
 		new EchoClient().connect(host, port);
 	}
 

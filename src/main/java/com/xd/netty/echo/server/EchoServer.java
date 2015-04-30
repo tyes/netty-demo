@@ -55,7 +55,7 @@ public class EchoServer {
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
-		int port = 8888;
+		int port = 8999;
 		new EchoServer().bind(port);
 	}
 

@@ -1,4 +1,4 @@
-package com.xd.netty.client;
+package com.xd.netty.protobuf.client;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

@@ -1,4 +1,4 @@
-package com.xd.netty.server;
+package com.xd.netty.protobuf.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.EventLoopGroup;

@@ -1,4 +1,4 @@
-package com.xd.netty.server;
+package com.xd.netty.protobuf.server;
 
 import com.xd.netty.protobuf.AddressBookProtos;
 
