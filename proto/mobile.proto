@@ -1,0 +1,15 @@
+package com.xd.protobuf;
+
+option java_package = "com.xd.protobuf";
+option java_outer_classname = "Mobile";
+message MobilePhone {
+	required string brand = 1;
+	required Hardware hardware = 2;
+	repeated string software = 3;
+}
+
+message Hardware {
+	required int32 rom = 1;
+	required int32 ram = 2;
+	required int32 size = 3;
+}
